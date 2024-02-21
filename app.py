@@ -129,6 +129,8 @@ st.plotly_chart(fig_pie, use_container_width=True)
 
 st.markdown("---")
 st.header("**Investments**")
+st.write("Investments calculates the log historical annual returns over the past 10 years for a given ticker. Past stock performance is no guarantee of future results") 
+
 def get_historical_data(ticker):
     try:
         if not ticker:
