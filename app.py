@@ -275,4 +275,4 @@ annual_inflation_rate = annual_inflation / 100
 portfolio_present_value = final_portfolio_value / (1 + annual_inflation_rate) ** projection_years
 
 st.subheader(f"Portfolio value in {projection_years} years is ${final_portfolio_value:,.0f}")
-st.write(f"The present value of portfolio in {projection_years} today is ${portfolio_present_value:,.0f}")
+st.write(f"Portfolio value accounting for inflation is ${portfolio_present_value:,.0f}")
